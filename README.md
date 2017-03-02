@@ -18,6 +18,7 @@ DAW : Ardour
 * 3 x Tal Reverb 2
 * 3 x Tal dub 3
 * 1 x LSP VST limiter
+* 14 x CarlaModularPatchbay
 
 ### Bridged Windows VSTs (Using airwave)###
 
