@@ -19,7 +19,7 @@ DAW : Ardour
 * 3 x Tal dub 3
 * 1 x LSP VST limiter
 
-### Bridged Windows VSTs ###
+### Bridged Windows VSTs (Using airwave)###
 
 * 4 x PIZmidi MidiPBCurve
 * 7 x OTT
