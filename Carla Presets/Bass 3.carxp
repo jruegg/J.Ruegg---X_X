@@ -1,0 +1,1467 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE CARLA-PROJECT>
+<CARLA-PROJECT VERSION='2.0'>
+ <EngineSettings>
+  <ForceStereo>false</ForceStereo>
+  <PreferPluginBridges>false</PreferPluginBridges>
+  <PreferUiBridges>false</PreferUiBridges>
+  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+  <MaxParameters>200</MaxParameters>
+  <UIBridgesTimeout>4000</UIBridgesTimeout>
+  <LADSPA_PATH>/home/josias/.ladspa:/usr/lib/ladspa:/usr/local/lib/ladspa</LADSPA_PATH>
+  <DSSI_PATH>/home/josias/.dssi:/usr/lib/dssi:/usr/local/lib/dssi</DSSI_PATH>
+  <LV2_PATH>/home/josias/.lv2:/usr/lib/lv2:/usr/local/lib/lv2</LV2_PATH>
+  <VST2_PATH>/home/josias/.vst:/usr/lib/vst:/usr/local/lib/vst</VST2_PATH>
+  <VST3_PATH>/home/josias/.vst3:/home/josias/.wine/drive_c/Program Files (x86)/Common Files/VST3:/home/josias/.wine/drive_c/Program Files/Common Files/VST3:/usr/lib/vst3:/usr/local/lib/vst3</VST3_PATH>
+  <GIG_PATH>/home/josias/.sounds/gig:/usr/share/sounds/gig</GIG_PATH>
+  <SF2_PATH>/home/josias/.sounds/sf2:/usr/share/sounds/sf2</SF2_PATH>
+  <SFZ_PATH>/home/josias/.sounds/sfz:/usr/share/sounds/sfz</SFZ_PATH>
+ </EngineSettings>
+
+ <!-- Nabla -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Nabla</Name>
+   <Binary>/home/josias/.vst/nabla64.so</Binary>
+   <UniqueID>1684813104</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1f4</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>GOD Mode</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Volume</Name>
+    <Value>0.503937005996704</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Syn Vol</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Syn Pan</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Str Vol</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Str Pan</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Tune</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Octave</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Joy FM</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Joy FM</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Joy fcM</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Joy fcM</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>MW Src</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>MG Vib</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>MG Speed</Name>
+    <Value>0.469008326530457</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>SG 16&apos;</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>SG 8&apos;</Name>
+    <Value>0.514705896377563</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>SG 4&apos;</Name>
+    <Value>0.264705896377563</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>SG 2&apos;</Name>
+    <Value>0.0735294222831726</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>SG Noise</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Syn EG A</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Syn EG D</Name>
+    <Value>0.558823525905609</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Syn EG S</Name>
+    <Value>0.191176474094391</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Syn EG R</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>VCA Mode</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Syn Trig</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>VCF Freq</Name>
+    <Value>0.073529414832592</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>VCF Reso</Name>
+    <Value>0.920849442481995</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>VCF EG</Name>
+    <Value>0.95811128616333</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>VCF Mode</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>VCF KbdF</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Str Oct</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Str EG A</Name>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>33</Index>
+    <Name>Str EG R</Name>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>34</Index>
+    <Name>Str Trig</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>EQ Low</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>EQ High</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>37</Index>
+    <Name>Phaser</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>38</Index>
+    <Name>Ph Speed</Name>
+    <Value>0.0772025808691978</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>Ph Feed</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>40</Index>
+    <Name>Ph Mix</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>41</Index>
+    <Name>Ph Freq</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>42</Index>
+    <Name>Ph Mod</Name>
+    <Value>0.949999988079071</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>43</Index>
+    <Name>Delay</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>44</Index>
+    <Name>Dly Time</Name>
+    <Value>0.600000023841858</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>45</Index>
+    <Name>Dly Feed</Name>
+    <Value>0.400000005960464</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>46</Index>
+    <Name>Dly Mix</Name>
+    <Value>0.300000011920929</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>47</Index>
+    <Name>Ens1 Dly</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>48</Index>
+    <Name>Ens2 Dly</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>49</Index>
+    <Name>Ens Spd1</Name>
+    <Value>0.0892206132411957</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>50</Index>
+    <Name>Ens Spd2</Name>
+    <Value>0.48986691236496</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>51</Index>
+    <Name>Ens 1to1</Name>
+    <Value>0.300000011920929</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>52</Index>
+    <Name>Ens 1to2</Name>
+    <Value>0.0599999986588955</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>53</Index>
+    <Name>Ens 2to1</Name>
+    <Value>0.0599999986588955</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>54</Index>
+    <Name>Ens 2to2</Name>
+    <Value>0.300000011920929</Value>
+   </Parameter>
+
+   <CurrentProgramIndex>1</CurrentProgramIndex>
+   <CurrentProgramName>Classic Rezo Combi</CurrentProgramName>
+  </Data>
+ </Plugin>
+
+ <!-- Nabla -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Nabla (2)</Name>
+   <Binary>/home/josias/.vst/nabla64.so</Binary>
+   <UniqueID>1684813104</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1f4</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>GOD Mode</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Volume</Name>
+    <Value>0.503937005996704</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Syn Vol</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Syn Pan</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Str Vol</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Str Pan</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Tune</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Octave</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Joy FM</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Joy FM</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Joy fcM</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Joy fcM</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>MW Src</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>MG Vib</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>MG Speed</Name>
+    <Value>0.469008326530457</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>SG 16&apos;</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>SG 8&apos;</Name>
+    <Value>0.514705896377563</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>SG 4&apos;</Name>
+    <Value>0.264705896377563</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>SG 2&apos;</Name>
+    <Value>0.0735294222831726</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>SG Noise</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Syn EG A</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Syn EG D</Name>
+    <Value>0.558823525905609</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Syn EG S</Name>
+    <Value>0.191176474094391</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Syn EG R</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>VCA Mode</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Syn Trig</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>VCF Freq</Name>
+    <Value>0.294117659330368</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>VCF Reso</Name>
+    <Value>0.920849442481995</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>VCF EG</Name>
+    <Value>0.758426427841187</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>VCF Mode</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>VCF KbdF</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Str Oct</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Str EG A</Name>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>33</Index>
+    <Name>Str EG R</Name>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>34</Index>
+    <Name>Str Trig</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>EQ Low</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>EQ High</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>37</Index>
+    <Name>Phaser</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>38</Index>
+    <Name>Ph Speed</Name>
+    <Value>0.0772025808691978</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>Ph Feed</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>40</Index>
+    <Name>Ph Mix</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>41</Index>
+    <Name>Ph Freq</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>42</Index>
+    <Name>Ph Mod</Name>
+    <Value>0.949999988079071</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>43</Index>
+    <Name>Delay</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>44</Index>
+    <Name>Dly Time</Name>
+    <Value>0.600000023841858</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>45</Index>
+    <Name>Dly Feed</Name>
+    <Value>0.400000005960464</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>46</Index>
+    <Name>Dly Mix</Name>
+    <Value>0.300000011920929</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>47</Index>
+    <Name>Ens1 Dly</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>48</Index>
+    <Name>Ens2 Dly</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>49</Index>
+    <Name>Ens Spd1</Name>
+    <Value>0.0892206132411957</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>50</Index>
+    <Name>Ens Spd2</Name>
+    <Value>0.48986691236496</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>51</Index>
+    <Name>Ens 1to1</Name>
+    <Value>0.300000011920929</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>52</Index>
+    <Name>Ens 1to2</Name>
+    <Value>0.0599999986588955</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>53</Index>
+    <Name>Ens 2to1</Name>
+    <Value>0.0599999986588955</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>54</Index>
+    <Name>Ens 2to2</Name>
+    <Value>0.300000011920929</Value>
+   </Parameter>
+
+   <CurrentProgramIndex>1</CurrentProgramIndex>
+   <CurrentProgramName>Classic Rezo Combi</CurrentProgramName>
+  </Data>
+ </Plugin>
+
+ <!-- Nabla -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Nabla (3)</Name>
+   <Binary>/home/josias/.vst/nabla64.so</Binary>
+   <UniqueID>1684813104</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1f4</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>GOD Mode</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Volume</Name>
+    <Value>0.503937005996704</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Syn Vol</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Syn Pan</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Str Vol</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Str Pan</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Tune</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Octave</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Joy FM</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Joy FM</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Joy fcM</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Joy fcM</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>MW Src</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>MG Vib</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>MG Speed</Name>
+    <Value>0.469008326530457</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>SG 16&apos;</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>SG 8&apos;</Name>
+    <Value>0.514705896377563</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>SG 4&apos;</Name>
+    <Value>0.264705896377563</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>SG 2&apos;</Name>
+    <Value>0.0735294222831726</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>SG Noise</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Syn EG A</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Syn EG D</Name>
+    <Value>0.558823525905609</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Syn EG S</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Syn EG R</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>VCA Mode</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Syn Trig</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>VCF Freq</Name>
+    <Value>0.588235318660736</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>VCF Reso</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>VCF EG</Name>
+    <Value>0.412968277931213</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>VCF Mode</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>VCF KbdF</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Str Oct</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Str EG A</Name>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>33</Index>
+    <Name>Str EG R</Name>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>34</Index>
+    <Name>Str Trig</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>EQ Low</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>EQ High</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>37</Index>
+    <Name>Phaser</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>38</Index>
+    <Name>Ph Speed</Name>
+    <Value>0.0772025808691978</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>Ph Feed</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>40</Index>
+    <Name>Ph Mix</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>41</Index>
+    <Name>Ph Freq</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>42</Index>
+    <Name>Ph Mod</Name>
+    <Value>0.949999988079071</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>43</Index>
+    <Name>Delay</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>44</Index>
+    <Name>Dly Time</Name>
+    <Value>0.600000023841858</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>45</Index>
+    <Name>Dly Feed</Name>
+    <Value>0.400000005960464</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>46</Index>
+    <Name>Dly Mix</Name>
+    <Value>0.300000011920929</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>47</Index>
+    <Name>Ens1 Dly</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>48</Index>
+    <Name>Ens2 Dly</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>49</Index>
+    <Name>Ens Spd1</Name>
+    <Value>0.0892206132411957</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>50</Index>
+    <Name>Ens Spd2</Name>
+    <Value>0.48986691236496</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>51</Index>
+    <Name>Ens 1to1</Name>
+    <Value>0.300000011920929</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>52</Index>
+    <Name>Ens 1to2</Name>
+    <Value>0.0599999986588955</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>53</Index>
+    <Name>Ens 2to1</Name>
+    <Value>0.0599999986588955</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>54</Index>
+    <Name>Ens 2to2</Name>
+    <Value>0.300000011920929</Value>
+   </Parameter>
+
+   <CurrentProgramIndex>1</CurrentProgramIndex>
+   <CurrentProgramName>Classic Rezo Combi</CurrentProgramName>
+  </Data>
+ </Plugin>
+
+ <!-- Nabla -->
+ <Plugin>
+  <Info>
+   <Type>VST2</Type>
+   <Name>Nabla (4)</Name>
+   <Binary>/home/josias/.vst/nabla64.so</Binary>
+   <UniqueID>1684813104</UniqueID>
+  </Info>
+
+  <Data>
+   <Active>Yes</Active>
+   <ControlChannel>1</ControlChannel>
+   <Options>0x1f4</Options>
+
+   <Parameter>
+    <Index>0</Index>
+    <Name>GOD Mode</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>1</Index>
+    <Name>Volume</Name>
+    <Value>0.503937005996704</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>2</Index>
+    <Name>Syn Vol</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>3</Index>
+    <Name>Syn Pan</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>4</Index>
+    <Name>Str Vol</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>5</Index>
+    <Name>Str Pan</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>6</Index>
+    <Name>Tune</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>7</Index>
+    <Name>Octave</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>8</Index>
+    <Name>Joy FM</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>9</Index>
+    <Name>Joy FM</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>10</Index>
+    <Name>Joy fcM</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>11</Index>
+    <Name>Joy fcM</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>12</Index>
+    <Name>MW Src</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>13</Index>
+    <Name>MG Vib</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>14</Index>
+    <Name>MG Speed</Name>
+    <Value>0.469008326530457</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>15</Index>
+    <Name>SG 16&apos;</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>16</Index>
+    <Name>SG 8&apos;</Name>
+    <Value>0.514705896377563</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>17</Index>
+    <Name>SG 4&apos;</Name>
+    <Value>0.264705896377563</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>18</Index>
+    <Name>SG 2&apos;</Name>
+    <Value>0.0735294222831726</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>19</Index>
+    <Name>SG Noise</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>20</Index>
+    <Name>Syn EG A</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>21</Index>
+    <Name>Syn EG D</Name>
+    <Value>0.558823525905609</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>22</Index>
+    <Name>Syn EG S</Name>
+    <Value>0.602941155433655</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>23</Index>
+    <Name>Syn EG R</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>24</Index>
+    <Name>VCA Mode</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>25</Index>
+    <Name>Syn Trig</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>26</Index>
+    <Name>VCF Freq</Name>
+    <Value>0.205882355570793</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>27</Index>
+    <Name>VCF Reso</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>28</Index>
+    <Name>VCF EG</Name>
+    <Value>0.77683287858963</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>29</Index>
+    <Name>VCF Mode</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>30</Index>
+    <Name>VCF KbdF</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>31</Index>
+    <Name>Str Oct</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>32</Index>
+    <Name>Str EG A</Name>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>33</Index>
+    <Name>Str EG R</Name>
+    <Value>0.100000001490116</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>34</Index>
+    <Name>Str Trig</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>35</Index>
+    <Name>EQ Low</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>36</Index>
+    <Name>EQ High</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>37</Index>
+    <Name>Phaser</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>38</Index>
+    <Name>Ph Speed</Name>
+    <Value>0.0772025808691978</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>39</Index>
+    <Name>Ph Feed</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>40</Index>
+    <Name>Ph Mix</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>41</Index>
+    <Name>Ph Freq</Name>
+    <Value>0.5</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>42</Index>
+    <Name>Ph Mod</Name>
+    <Value>0.949999988079071</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>43</Index>
+    <Name>Delay</Name>
+    <Value>0</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>44</Index>
+    <Name>Dly Time</Name>
+    <Value>0.600000023841858</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>45</Index>
+    <Name>Dly Feed</Name>
+    <Value>0.400000005960464</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>46</Index>
+    <Name>Dly Mix</Name>
+    <Value>0.300000011920929</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>47</Index>
+    <Name>Ens1 Dly</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>48</Index>
+    <Name>Ens2 Dly</Name>
+    <Value>1</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>49</Index>
+    <Name>Ens Spd1</Name>
+    <Value>0.0892206132411957</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>50</Index>
+    <Name>Ens Spd2</Name>
+    <Value>0.48986691236496</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>51</Index>
+    <Name>Ens 1to1</Name>
+    <Value>0.300000011920929</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>52</Index>
+    <Name>Ens 1to2</Name>
+    <Value>0.0599999986588955</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>53</Index>
+    <Name>Ens 2to1</Name>
+    <Value>0.0599999986588955</Value>
+   </Parameter>
+
+   <Parameter>
+    <Index>54</Index>
+    <Name>Ens 2to2</Name>
+    <Value>0.300000011920929</Value>
+   </Parameter>
+
+   <CurrentProgramIndex>1</CurrentProgramIndex>
+   <CurrentProgramName>Classic Rezo Combi</CurrentProgramName>
+  </Data>
+ </Plugin>
+
+ <Patchbay>
+  <Connection>
+   <Source>Midi Input:events-out</Source>
+   <Target>Nabla:events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Midi Input:events-out</Source>
+   <Target>Nabla (2):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Midi Input:events-out</Source>
+   <Target>Nabla (3):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Midi Input:events-out</Source>
+   <Target>Nabla (4):events-in</Target>
+  </Connection>
+  <Connection>
+   <Source>Nabla:output_1</Source>
+   <Target>Audio Output:Left</Target>
+  </Connection>
+  <Connection>
+   <Source>Nabla:output_2</Source>
+   <Target>Audio Output:Right</Target>
+  </Connection>
+  <Connection>
+   <Source>Nabla (2):output_1</Source>
+   <Target>Audio Output:Left</Target>
+  </Connection>
+  <Connection>
+   <Source>Nabla (2):output_2</Source>
+   <Target>Audio Output:Right</Target>
+  </Connection>
+  <Connection>
+   <Source>Nabla (3):output_1</Source>
+   <Target>Audio Output:Left</Target>
+  </Connection>
+  <Connection>
+   <Source>Nabla (3):output_2</Source>
+   <Target>Audio Output:Right</Target>
+  </Connection>
+  <Connection>
+   <Source>Nabla (4):output_1</Source>
+   <Target>Audio Output:Left</Target>
+  </Connection>
+  <Connection>
+   <Source>Nabla (4):output_2</Source>
+   <Target>Audio Output:Right</Target>
+  </Connection>
+ </Patchbay>
+</CARLA-PROJECT>
